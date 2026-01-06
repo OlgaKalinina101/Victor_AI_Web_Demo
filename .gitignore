@@ -1,0 +1,55 @@
+# ------------------------------------------------------------
+# Victor AI Web (frontend) + minimal Python (repo root)
+# ------------------------------------------------------------
+
+# ---- OS / editor noise ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.idea/
+*.iml
+.vscode/
+
+# Cursor / tooling
+.cursor/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+ENV/
+env/
+
+# ---- Node / Vite / React (frontend) ----
+frontend/node_modules/
+frontend/.vite/
+frontend/.turbo/
+
+# Env files (keep examples committed, ignore real secrets)
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/.env.production
+frontend/.env.development
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build artifacts
+frontend/dist/
+frontend/coverage/
+
+# TypeScript build info
+*.tsbuildinfo
+
